@@ -65,10 +65,11 @@ const Packages = () => {
             <div 
               key={index} 
               className={cn(
-                "glass-card p-8 transition-all duration-300 hover:shadow-xl relative",
+                "glass-card p-8 transition-all duration-300 hover:shadow-xl relative flex flex-col justify-between",
                 pkg.popular && "border-primary border-2"
               )}
             >
+              <div>
               {pkg.popular && (
                 <div className="absolute top-0 right-0 -translate-y-1/2 px-4 py-1 bg-primary text-white text-xs font-bold rounded-full">
                   POPULAR
@@ -88,6 +89,7 @@ const Packages = () => {
                     <span>{feature}</span>
                   </div>
                 ))}
+              </div>
               </div>
               
               <Button 

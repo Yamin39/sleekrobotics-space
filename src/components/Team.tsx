@@ -14,19 +14,25 @@ const Team = () => {
       name: 'Md Kamrul Hasan',
       title: 'Team Leader',
       position: 'Joint Secretary, Planning & Budget Branch, Cabinet Division',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
+      image: '/lovable-uploads/Md-Kamrul-Hasan.png',
     },
     {
       name: 'Engr Abu Kowsar',
       title: 'Project Manager',
       position: 'Programmer, Dept. of ICT, ICT Division',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
+      image: '/lovable-uploads/Engr-Abu-Kowsar.png',
     },
     {
       name: 'Shanjit Mondol',
       title: 'Master Trainer',
       position: 'Senior Robotics Trainer',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
+      image: '/lovable-uploads/Shanjit-Mondol.png',
+    },
+    {
+      name: 'Jewel Nath',
+      title: 'Master Trainer',
+      position: 'Senior Robotics Trainer',
+      image: '/lovable-uploads/Jewel-Nath.png',
     },
   ];
 
@@ -41,7 +47,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {team.map((member, index) => (
             <div 
               key={index} 

@@ -17,7 +17,7 @@ const Hero = () => {
                 </span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 animate-fade-in animate-delay-100">
-                <span className="text-robotics-yellow">CodeSurf.one</span>
+                <span className="text-robotics-yellow">Bangladesh</span>
                 <br />
                 <span className="text-primary text-glow">School of Robotics</span>
               </h1>

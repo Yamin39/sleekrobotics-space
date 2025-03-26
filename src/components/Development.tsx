@@ -4,19 +4,16 @@ import { ArrowRight } from 'lucide-react';
 const Development = () => {
   const steps = [
     {
-      title: 'Sign up for a course',
+      title: 'Sign up',
       description: 'Register with valid details to stay connected with us anytime.',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
     },
     {
       title: 'Choose your plan',
-      description: 'Select a course, programming language, and your preferred time.',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
+      description: 'Select a plan, pay the price, and start learning anytime.',
     },
     {
       title: 'Get certified',
       description: 'Complete your lessons and receive a professional certification.',
-      image: '/lovable-uploads/a1cd4574-a8a6-4bab-8b90-51dc87bb80d8.png',
     },
   ];
 
@@ -39,20 +36,12 @@ const Development = () => {
                 </div>
               </div>
               
-              <div className="mb-4">
+              <div>
                 <h3 className="text-xl font-bold group-hover:text-primary transition-colors flex items-center">
                   {step.title}
                   <ArrowRight className="ml-2 h-4 w-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
                 </h3>
                 <p className="text-gray-600 mt-2">{step.description}</p>
-              </div>
-              
-              <div className="h-40 mt-6 overflow-hidden rounded-lg">
-                <img 
-                  src={step.image} 
-                  alt={step.title} 
-                  className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                />
               </div>
             </div>
           ))}

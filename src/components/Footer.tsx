@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <img src="/lovable-uploads/53c609fa-f42f-47a6-be30-4294737deb30.png" alt="CodeSurf.one Logo" className="h-10 w-auto" />
-              <span className="font-display font-bold text-xl">CodeSurf.one</span>
+              <img src="/lovable-uploads/53c609fa-f42f-47a6-be30-4294737deb30.png" alt="SRS Logo" className="h-14 w-auto" />
             </div>
             <p className="text-gray-300 mb-6">
               Explore and learn more about everything from machine learning and global networking to scaling your team.
@@ -67,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <span className="text-gray-300">contact@codesurf.one</span>
+                <span className="text-gray-300">contact@srs.com</span>
               </li>
             </ul>
           </div>
@@ -75,7 +74,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} CodeSurf.one School of Robotics. All Rights Reserved.
+            © {new Date().getFullYear()} School of Robotics. All Rights Reserved.
           </p>
         </div>
       </div>

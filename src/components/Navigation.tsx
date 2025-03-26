@@ -36,11 +36,10 @@ const Navigation = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-2">
-          <img src="/lovable-uploads/53c609fa-f42f-47a6-be30-4294737deb30.png" alt="CodeSurf.one Logo" className="h-10 w-auto" />
-          <span className="font-display font-bold text-xl hidden md:block text-primary">CodeSurf.one</span>
+          <img src="/lovable-uploads/53c609fa-f42f-47a6-be30-4294737deb30.png" alt="SRS Logo" className="h-11 w-auto" />
         </a>
         
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
             <a 
               key={item.name}
@@ -56,7 +55,7 @@ const Navigation = () => {
         </nav>
         
         <button 
-          className="md:hidden text-gray-700"
+          className="lg:hidden text-gray-700 relative z-50"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -66,10 +65,10 @@ const Navigation = () => {
       
       {/* Mobile Navigation */}
       <div className={cn(
-        "fixed inset-0 bg-white z-40 pt-24 px-6 transform transition-transform duration-300 ease-in-out md:hidden",
+        "fixed inset-0 bg-white z-40 pt-24 transform transition-transform duration-300 ease-in-out lg:hidden",
         mobileMenuOpen ? "translate-x-0" : "translate-x-full"
       )}>
-        <nav className="flex flex-col gap-4">
+        <nav className="flex flex-col gap-4 bg-white px-6 pb-6">
           {navItems.map((item) => (
             <a
               key={item.name}

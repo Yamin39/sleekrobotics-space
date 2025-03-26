@@ -58,8 +58,10 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="glass-card p-6 overflow-hidden">
-            <MapComponent />
+          <div className="overflow-hidden shadow-xl rounded-xl h-96 lg:h-auto">
+            {/* <MapComponent /> */}
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.025838424466!2d91.8198359917187!3d24.900058346901524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2sSylhet!5e0!3m2!1sen!2sbd!4v1742975931016!5m2!1sen!2sbd" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="size-full rounded-xl border-0"/>
+
           </div>
 
           <div className="glass-card p-8">
